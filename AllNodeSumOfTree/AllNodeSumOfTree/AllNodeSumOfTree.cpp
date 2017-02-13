@@ -25,32 +25,27 @@ struct node *newNode(int item)
 	return temp;
 }
 
-// Recursive function to add all greater values in every node
 void modifyBSTUtil(struct node *root, int *sum)
 {
 	// Base Case
 	if (root == NULL)  return;
 
-	// Recur for right subtree
 	modifyBSTUtil(root->right, sum);
 
-	// Now *sum has sum of nodes in right subtree, add
-	// root->data to sum and update root->data
 	*sum = *sum + root->data;
 	root->data = *sum;
 
-	// Recur for left subtree
+	
 	modifyBSTUtil(root->left, sum);
 }
 
-// A wrapper over modifyBSTUtil()
 void modifyBST(struct node *root)
 {
 	int sum = 0;
 	modifyBSTUtil(root, &sum);
 }
 
-// A utility function to do inorder traversal of BST
+
 void inorder(struct node *root)
 {
 	if (root != NULL)
