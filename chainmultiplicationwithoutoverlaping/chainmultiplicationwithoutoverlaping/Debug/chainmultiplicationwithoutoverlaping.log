@@ -1,0 +1,22 @@
+﻿Build started 10/28/2013 10:44:02 PM.
+     1>Project "c:\Users\anand kumar\documents\visual studio 2010\Projects\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\anand kumar\documents\visual studio 2010\Projects\chainmultiplicationwithoutoverlaping\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\chainmultiplicationwithoutoverlaping.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\chainmultiplicationwithoutoverlaping.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\chainmultiplicationwithoutoverlaping.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt chainmultiplicationwithoutoverlaping.cpp
+         chainmultiplicationwithoutoverlaping.cpp
+     1>c:\users\anand kumar\documents\visual studio 2010\projects\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping.cpp(14): error C2057: expected constant expression
+     1>c:\users\anand kumar\documents\visual studio 2010\projects\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping.cpp(14): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\anand kumar\documents\visual studio 2010\projects\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping.cpp(14): error C2057: expected constant expression
+     1>c:\users\anand kumar\documents\visual studio 2010\projects\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping.cpp(14): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\anand kumar\documents\visual studio 2010\projects\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping.cpp(14): error C2087: 'm' : missing subscript
+     1>c:\users\anand kumar\documents\visual studio 2010\projects\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping.cpp(14): error C2133: 'm' : unknown size
+     1>Done Building Project "c:\Users\anand kumar\documents\visual studio 2010\Projects\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping\chainmultiplicationwithoutoverlaping.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.52
